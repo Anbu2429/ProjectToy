@@ -1,0 +1,34 @@
+.home-container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeksaIvbQUoHCw97nR1sFYHOgMxAomCBcfg&s);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+}
+
+.home-text1, .home-text2 {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold; /* Use font-weight for bold text */
+    font-size: 24px; /* Set a specific font size */
+}
+
+@media (max-width: 768px) {
+    .home-text {
+        font-size: 48px; /* Adjust font size for smaller screens */
+    }
+    .home-text1, .home-text2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}

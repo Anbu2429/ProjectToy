@@ -1,0 +1,30 @@
+.contact-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-socialmedia {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.connect-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Keep text color consistent */
+}
+
+.contact-names {
+  margin-top: 5px; /* Space between icon and text */
+}

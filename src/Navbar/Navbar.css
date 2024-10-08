@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 15px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .navbar-link.active {
+    font-weight: bold; /* Bold for active link */
+    text-decoration: underline; /* Underline for active link */
+  }
+  
+  .navbar-logout {
+    color: #ffcccc; /* Light red color for logout */
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
